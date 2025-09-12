@@ -6,7 +6,17 @@
     <title>PHP learning</title>
 </head>
 <body>
-    <?php echo "<p>Inicio do aprendizado de php</p>";
+    <?php
+     $nome = "Ricardo";
+     $idade = 16;
+     $cidade = "Santa Cruz do Sul";
+     $pais = "Brasil";
+     echo "<h1>Teste \"aspas\"</h1>"
     ?>
+    <h1>Meu nome é: "<?php echo  $nome; ?>"</h1>
+    <h2>Minha idade é: <?php echo $idade; ?></h2>
+    <h3>Moro na cidade: <?php echo $cidade; ?> 
+    <br>E no país: <?php echo $pais; ?></h3>
+
 </body>
 </html>
