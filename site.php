@@ -6,7 +6,7 @@
     <title>PHP learning</title>
 </head>
 <body>
-    <?php echo <p>Inicio do aprendizado de php</p>
+    <?php echo "<p>Inicio do aprendizado de php</p>"
     ?>
 </body>
 </html>
