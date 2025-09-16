@@ -1,3 +1,9 @@
 .meuNome{
     color: blue;
 }
+.formulario{
+display: flex;
+flex-direction: column;
+background-color: blanchedalmond;
+border-radius: 10px;
+}
