@@ -36,7 +36,7 @@
     <h3>Moro na cidade: <?php echo $cidade; ?> 
     <br>E no país: <?php echo $pais; ?></h3>
     <button >Click me!</button>
-    <form class="formulario" action="form.php" method="GET">
+    <form class="formulario" action="form.php" method="POST">
         <label for="nome">Nome:</label>
         <input type="text" name="nome" placeholder="Seu nome...">
         <br>
