@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP learning</title>
+    <link rel="stylesheet" type="text/css" href="php.css">
 </head>
 <body>
     <?php
@@ -30,9 +31,10 @@
      adicionar_numero()
      
     ?>
-    <h1>Meu nome é: "<?php echo  $nome; ?>"</h1>
+    <h1 class="meuNome">Meu nome é: "<?php echo  $nome; ?>"</h1>
     <h2>Minha idade é: <?php echo $idade; ?></h2>
     <h3>Moro na cidade: <?php echo $cidade; ?> 
     <br>E no país: <?php echo $pais; ?></h3>
+    <button >Click me!</button>
 </body>
 </html>
