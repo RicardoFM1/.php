@@ -8,41 +8,38 @@
 </head>
 <body>
     <?php
-     $nome = "Ricardo";
-     $idade = 16;
-     $cidade = "Santa Cruz do Sul";
-     $pais = "Brasil";
-     define ("curso","Técnico em TI");
-     define ("duracao",1200);
-     echo "<h1>Teste \"aspas\"</h1>";
-     echo "O meu curso é: " . curso;
-     echo "<br>";
-     echo "A duraçao do curso é de: " . duracao . "horas"; 
-    $numero = 0;
-     function adicionar_numero () 
-     {
-        global $numero;
-        $numero += 5; 
-        echo "<br>";
-        echo "Valor do número: " . $numero; 
-
-     }
-     echo "valor do número inicial: " . $numero;
-     adicionar_numero()
-     
+    
+    $matriz = [
+        ["linha1, coluna1", "linha1 coluna1", "linha1 coluna1"], 
+        ["linha2, coluna2", "linha2 coluna2", "linha2 coluna2"]
+    ];
+    $matrizAssociativo = [
+        "Arma" => "Ak-47",
+        [
+        "Nome" => "Ricardo",
+        "Idade" => 19
+        ],
+        [
+        "Nome" => "William",
+        "Idade" => 25
+        ]
+        ];
+        print_r($matrizAssociativo["Arma"]);
+        print_r($matrizAssociativo[0]);
+        print_r($matrizAssociativo[1]);
+       
     ?>
-    <h1 class="meuNome">Meu nome é: "<?php echo  $nome; ?>"</h1>
-    <h2>Minha idade é: <?php echo $idade; ?></h2>
-    <h3>Moro na cidade: <?php echo $cidade; ?> 
-    <br>E no país: <?php echo $pais; ?></h3>
-    <button >Click me!</button>
-    <form class="formulario" action="form.php" method="POST">
-        <label for="nome">Nome:</label>
-        <input type="text" name="nome" placeholder="Seu nome...">
-        <br>
-          <label for="senha">Senha:</label>
-        <input type="password" placeholder="Sua linda senha..." name="senha">
-        <button type="submit">Enviar</button>
-    </form>
+
+    <div class="divFormulario">
+
+        <form class="formulario" action="form.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" placeholder="Seu nome...">
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="password" placeholder="Sua linda senha..." name="senha">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
 </body>
 </html>
