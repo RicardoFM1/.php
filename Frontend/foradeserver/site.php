@@ -9,24 +9,24 @@
 <body>
     <?php
     
-    $matriz = [
-        ["linha1, coluna1", "linha1 coluna1", "linha1 coluna1"], 
-        ["linha2, coluna2", "linha2 coluna2", "linha2 coluna2"]
-    ];
-    $matrizAssociativo = [
-        "Arma" => "Ak-47",
-        [
-        "Nome" => "Ricardo",
-        "Idade" => 19
-        ],
-        [
-        "Nome" => "William",
-        "Idade" => 25
-        ]
-        ];
-        print_r($matrizAssociativo["Arma"]);
-        print_r($matrizAssociativo[0]);
-        print_r($matrizAssociativo[1]);
+    // $matriz = [
+    //     ["linha1, coluna1", "linha1 coluna1", "linha1 coluna1"], 
+    //     ["linha2, coluna2", "linha2 coluna2", "linha2 coluna2"]
+    // ];
+    // $matrizAssociativo = [
+    //     "Arma" => "Ak-47",
+    //     [
+    //     "Nome" => "Ricardo",
+    //     "Idade" => 19
+    //     ],
+    //     [
+    //     "Nome" => "William",
+    //     "Idade" => 25
+    //     ]
+    //     ];
+    //     print_r($matrizAssociativo["Arma"]);
+    //     print_r($matrizAssociativo[0]);
+    //     print_r($matrizAssociativo[1]);
        
     ?>
 
